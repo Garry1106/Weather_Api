@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background:url("./assets/image.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.app
+{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    height: 500px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items:center;
+    border-radius: 20px;
+}
+.card
+{
+    text-align: center;
+    padding: 5px 45px;
+}
+.card h2{
+    font-size: 45px;
+}
+.card p
+{
+    font-size: 25px;
+    margin: 3px auto;
+}
+.input-field
+{
+    height: 35px;
+    width: 250px;
+    border-radius: 20px;
+    border: none;
+    font-size: 20px;
+    padding: 0 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition:all .4s linear;
+}
+.input-field:focus
+{
+    outline: none;
+    border-bottom:1px solid gray;
+    
+}
+.btn-field
+{
+    width: 200px;
+    height: 30px;
+    border-radius:20px;
+    outline: none;
+    border: none;
+    background-color: rgb(182, 186, 188);
+    cursor: pointer;
+    transition:all.2s linear;
+}
+.btn-field:hover
+{
+    background-color: grey;
+}
